@@ -20,7 +20,7 @@
 .navLink{
     display : flex;
     color : #000;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     list-style:none;
     padding : 15px;
@@ -69,7 +69,7 @@
     flex-direction: row;
     text-decoration: none;
     color : #000;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     list-style:none;
     padding : 15px;
@@ -89,4 +89,13 @@
     position: absolute;
     right: 0;
     margin-right: 20px;
+}
+
+@media(max-width:760px){
+    .sidebar-nav{
+        display: none;
+    }
+    .navLink{
+        display: none;
+    }
 }

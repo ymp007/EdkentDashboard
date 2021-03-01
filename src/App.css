@@ -7,6 +7,13 @@ body{
   margin-left: 300px;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 90%;
   height: 60vh;
+}
+/* Responsive Css */
+
+@media(max-width:760px){
+ .container{
+   margin-left: 0%;
+ } 
 }
