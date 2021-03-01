@@ -1,0 +1,122 @@
+.card{
+  width : 15vw;
+  height: 13vh;
+  padding:0.2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+/* Upgrade Button CSS */
+
+.up-btn{
+  border-radius: 50px;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  background-color: #4a88f9;
+  color: #fff;
+}
+.up-btn:hover{
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+  color: #fff;
+}
+.up-btn-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-bottom: 1rem;
+  margin-left: 80%;
+}
+
+/* Tabs CSS */
+.tabs{
+  cursor: pointer;
+}
+.icon-container{
+  border-radius: 0px 50px 50px 0%;
+  padding-right: 50px;
+  margin-left: 0%;
+  background-color: #f5fafe;
+}
+.icons{
+  color: #3066d1;
+  font-size: 3rem;
+  margin-top: 30%;
+  margin-left: 25%;
+}
+.tab-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-data p{
+  color: #a8a8a8;
+}
+.tab-data p span{
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Datepicker CSS */
+#picker{
+  margin-left: 77%;
+  display: flex;
+  background-color: #fff;
+  border : 1px solid #000;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Attribute CSS */
+.data{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: flex-start;
+}
+.data p{
+  color: #a8a8a8;
+  padding: 0 1rem 0 1rem;
+  border-right: 1px solid #a8a8a8;
+}
+.data p span{
+  color: #000;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+/* DatePicker Css */
+#picker{
+  margin-left: 77%;
+  display: flex;
+  background-color: #fff;
+  border : 1px solid #000;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.line-chart{
+  width: 100%;
+  height: 100%;
+}
+
+/* Chart CSS */
+.chart{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  padding: 1rem;
+  width: 71vw;
+  height: 55vh;
+}
